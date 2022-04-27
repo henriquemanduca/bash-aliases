@@ -1,16 +1,21 @@
+alias src='source .bashrc'
+
 # Commands ----------------------------------
 alias rm='rm -i'        # confirm removal
 alias cp='cp -i'        # confirm copy
 alias mv='mv -i'        # confirm move
 alias rmf='rm -rf'      # just delete it
 
-# Apt --------------------------------------
+# Configs -----------------------------------
+alias hts='sudo nano /etc/hosts'
+
+# Apt ---------------------------------------
 alias up='sudo apt update'
 alias upl='apt list --upgradable'
 alias upd='sudo apt dist-upgrade'
 alias inst='sudo apt isntall'
 
-# Folders ------------------------------------
+# Folders -----------------------------------
 alias ..='cd ..'
 alias ...='cd ../..'
 
