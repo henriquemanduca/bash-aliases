@@ -1,4 +1,4 @@
-alias src='source .bashrc'
+alias src='source ~/.bashrc'
 
 # Commands ----------------------------------
 alias cl='clear'
@@ -20,6 +20,9 @@ alias hts='sudo nano /etc/hosts'
 alias up='sudo apt update'
 alias upl='apt list --upgradable'
 alias upd='sudo apt dist-upgrade'
+
+alias upclean='sudo apt clean && sudo apt autoclean && sudo apt autoremove --purge'
+
 alias insta='sudo apt install'
 alias instd='sudo dpkg -i'
 
