@@ -1,5 +1,8 @@
 alias src='source ~/.bashrc'
 
+# Apps --------------------------------------
+alias g='git'
+
 # Commands ----------------------------------
 alias cl='clear'
 
@@ -30,7 +33,7 @@ alias instd='sudo dpkg -i'
 alias ..='cd ..'
 alias ...='cd ../..'
 
-alias dev='cd /mnt/WDC1/dev'
+alias dev='cd /home/henrique/Desenvolvimento/'
 
 function ondev() {
   dev && cd "$1";  
@@ -49,3 +52,4 @@ alias skaf='skaffold dev --port-forward'
 alias kbs='minikube start'
 alias kbt='minikube stop'
 alias kbip='minikube ip'
+alias kbip2='kubectl get svc'
