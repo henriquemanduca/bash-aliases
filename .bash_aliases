@@ -16,6 +16,9 @@ alias fsize='sudo du -sh'   # folder size
 alias ht='history'
 alias htg='history | grep'
 
+alias fpid='ps aux | grep -i'
+alias kid='sudo kill -9' 		# -9: SIGKILL
+
 # Configs -----------------------------------
 alias hts='sudo nano /etc/hosts'
 
